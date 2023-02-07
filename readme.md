@@ -14,3 +14,4 @@ Muito obrigado por estar lendo!
 // Atualização
 
 - Adicionado o conteúdo da primeira semana!
+- Adicionado o conteúdo da segunda semana!

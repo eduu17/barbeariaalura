@@ -17,14 +17,17 @@ header {
 }
 
 .header-logo {
-  width: 30%;
   display: inline-block;
+  width: 40%;
   vertical-align: middle;
 }
 
-.header-logo img,
-footer img {
-  width: 100px;
+.header-logo img {
+  width: 150px;
+}
+
+.header-nav {
+  width: 40%;
 }
 
 .header-nav,
@@ -33,27 +36,25 @@ footer img {
   vertical-align: middle;
 }
 
-.header-nav {
-  width: 60%;
-}
-
 .header-nav li a {
   margin-left: 15px;
   font-weight: bold;
-  font-size: 13px;
   color: #000;
   text-transform: uppercase;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  padding: 5px;
 }
 
 .header-nav li a:hover {
-  border-bottom: 1px solid #000;
-  padding: 1px;
+  border: 2px solid #000;
+  border-radius: 10px;
   transition: 1s;
 }
 
 .banner img {
   width: 100%;
-  height: 300px;
+  height: 500px;
   object-fit: cover;
 }
 
@@ -64,12 +65,10 @@ footer img {
 }
 
 .about-title {
-  font-size: 16px;
   padding: 10px;
 }
 
 .about p {
-  font-size: 12px;
   padding: 10px;
 }
 
@@ -84,16 +83,15 @@ footer img {
 }
 
 .benefits h2 {
-  font-size: 12px;
   text-align: center;
-  margin-bottom: 10px;
+  margin: 10px 0;
 }
 
 .benefits-list {
-  font-size: 12px;
   display: inline-block;
   vertical-align: top;
   padding-right: 10px;
+  text-align: left;
 }
 
 .benefits-banner {
@@ -101,8 +99,12 @@ footer img {
 }
 
 .benefits-banner img {
+  width: 800px;
   height: 300px;
   object-fit: cover;
+  object-position: center;
+  border-radius: 10px;
+  padding: 10px;
 }
 
 footer {

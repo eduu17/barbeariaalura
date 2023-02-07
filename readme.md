@@ -10,3 +10,7 @@ Até o momento foram utilizados conhecimentos básicos de:
 HTML5 e CSS3
 
 Muito obrigado por estar lendo!
+
+// Atualização
+
+- Adicionado o conteúdo da primeira semana!

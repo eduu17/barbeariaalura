@@ -1,0 +1,117 @@
+/* Reset CSS */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+header {
+  text-align: center;
+}
+
+.header-logo {
+  width: 30%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.header-logo img,
+footer img {
+  width: 100px;
+}
+
+.header-nav,
+.header-nav ul li {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.header-nav {
+  width: 60%;
+}
+
+.header-nav li a {
+  margin-left: 15px;
+  font-weight: bold;
+  font-size: 13px;
+  color: #000;
+  text-transform: uppercase;
+}
+
+.header-nav li a:hover {
+  border-bottom: 1px solid #000;
+  padding: 1px;
+  transition: 1s;
+}
+
+.banner img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.about {
+  background-color: #ccc;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.about-title {
+  font-size: 16px;
+  padding: 10px;
+}
+
+.about p {
+  font-size: 12px;
+  padding: 10px;
+}
+
+.about-mission em {
+  color: red;
+  text-transform: uppercase;
+}
+
+.benefits {
+  padding: 20px 20px;
+  text-align: center;
+}
+
+.benefits h2 {
+  font-size: 12px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.benefits-list {
+  font-size: 12px;
+  display: inline-block;
+  vertical-align: top;
+  padding-right: 10px;
+}
+
+.benefits-banner {
+  display: inline-block;
+}
+
+.benefits-banner img {
+  height: 300px;
+  object-fit: cover;
+}
+
+footer {
+  width: 100%;
+  background-image: url("../img/bg.jpg");
+  text-align: center;
+}
+
+footer p {
+  color: #fff;
+  font-size: 10px;
+}

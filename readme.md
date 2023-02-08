@@ -15,3 +15,6 @@ Muito obrigado por estar lendo!
 
 - Adicionado o conteúdo da primeira semana!
 - Adicionado o conteúdo da segunda semana!
+- Adicionado o conteudo da quarta semana!
+
+Em processo de recriação do site utilizando novas tecnologias!

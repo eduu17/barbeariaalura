@@ -6,6 +6,7 @@
   box-sizing: border-box;
   text-decoration: none;
   font-family: "Roboto", sans-serif;
+  list-style: none;
 }
 
 img {
@@ -44,12 +45,12 @@ header {
   border: 2px solid #ccc;
   border-radius: 10px;
   padding: 5px;
+  transition: 1s;
 }
 
 .header-nav li a:hover {
   border: 2px solid #000;
   border-radius: 10px;
-  transition: 1s;
 }
 
 .banner img {
@@ -58,33 +59,61 @@ header {
   object-fit: cover;
 }
 
-.about {
-  background-color: #ccc;
+.abouta {
   text-align: center;
   padding: 10px 0;
+  background-color: #f8f8f8f8;
 }
 
-.about-title {
+.abouta-title {
   padding: 10px;
+  font-size: 2rem;
+  margin: 0 0 0 1rem;
+  text-align: center;
 }
 
-.about p {
+.abouta p {
   padding: 10px;
+  margin: 0 0 0 0.5rem;
 }
 
-.about-mission em {
+.utens {
+  width: 120px;
+  border-radius: 15px;
+  float: left;
+  margin: 0 20px;
+}
+
+.abouta-mission em {
   color: red;
   text-transform: uppercase;
+  font-style: italic;
+}
+
+.abouta-mission strong {
+  font-weight: bold;
+}
+
+.maps {
+  text-align: center;
+  padding: 3rem 0;
+  background: linear-gradient(#f8f8f8f8, #888);
+}
+
+.maps p {
+  margin: 0.5rem 0;
+}
+
+.video {
+  width: 90%;
+  margin: 1rem auto;
 }
 
 .benefits {
   padding: 20px 20px;
   text-align: center;
-}
-
-.benefits h2 {
-  text-align: center;
-  margin: 10px 0;
+  clear: left;
+  background-color: #888;
 }
 
 .benefits-list {
@@ -92,6 +121,22 @@ header {
   vertical-align: top;
   padding-right: 10px;
   text-align: left;
+  vertical-align: top;
+}
+
+.benefits-list li {
+  font-size: 1.2rem;
+  margin: 1rem 0;
+}
+
+.benefits-list li::before {
+  content: "✪";
+  padding: 0 10px;
+}
+
+.benefits-list li:first-of-type {
+  color: #000;
+  font-weight: bold;
 }
 
 .benefits-banner {
@@ -115,5 +160,5 @@ footer {
 
 footer p {
   color: #fff;
-  font-size: 10px;
+  font-size: 0.625rem;
 }

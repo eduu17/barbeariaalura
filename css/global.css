@@ -1,0 +1,8 @@
+/* Estilo da página principal */
+
+@import "./style.css";
+
+/* Estilo das paginas adicionais */
+
+@import "./produtos.css";
+@import "./contato.css";

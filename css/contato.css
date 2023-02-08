@@ -1,0 +1,70 @@
+* {
+  outline: none;
+}
+
+form {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.form-info,
+.check-form,
+.check-time {
+  border: none;
+  margin: 20px;
+}
+
+.check-form legend,
+.check-time legend {
+  font-size: 18px;
+}
+
+.form-info input,
+.form-info label,
+.form-info textarea {
+  padding: 10px;
+  display: block;
+  border-radius: 15px;
+  font-size: 18px;
+  color: #000;
+}
+
+.form-info input {
+  border: 1px solid #aaa;
+}
+
+.check-form label {
+  display: block;
+  margin: 10px 0;
+}
+.check-form input {
+  margin: 10px;
+}
+
+.check-time legend {
+  margin: 10px 0;
+}
+
+.option-check {
+  display: block;
+}
+
+.option-check input {
+  margin: 0 10px;
+}
+
+.button {
+  width: 50%;
+  padding: 20px;
+  font-size: 20px;
+  border-radius: 15px;
+  border: 2px solid #ccc;
+  cursor: pointer;
+  transition: 1s;
+  margin: 20px 0px;
+  text-transform: uppercase;
+}
+
+.button:hover {
+  background-color: #bbb;
+}

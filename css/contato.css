@@ -68,3 +68,22 @@ form {
 .button:hover {
   background-color: #bbb;
 }
+
+.date-info table {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  border: 2px solid #aaa;
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+
+.date-info th {
+  border: 2px solid red;
+  padding: 10px;
+}
+
+.date-info td {
+  border: 1px solid #aaa;
+  padding: 10px;
+}

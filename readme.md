@@ -15,4 +15,3 @@ Muito obrigado por estar lendo!
 
 - Adicionado o conteúdo da primeira semana!
 - Adicionado o conteúdo da segunda semana!
-- Adicionado o conteúdo da terceira semana! (80% finalizado)
